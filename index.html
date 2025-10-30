@@ -235,6 +235,17 @@
         min-width: 0;
         margin-bottom: 0;
       }
+      /* Make install steps stack vertically on small screens */
+      .install-step { flex-direction: column; align-items: stretch; }
+      .step-num { width: 34px; height: 34px; margin-top: 0; margin-bottom: 8px; }
+      /* Allow long commands to wrap instead of overflowing */
+      .step-cmd {
+        white-space: normal;
+        word-break: break-word;
+        overflow-wrap: anywhere;
+        font-size: 0.98rem;
+        padding: 9px 12px;
+      }
       .btn.btn-install-step {
         width: 100%; max-width: 99vw; font-size: 1.01rem; min-height: 46px; padding: 12px 0;
       }
