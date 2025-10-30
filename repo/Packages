@@ -1,0 +1,18 @@
+Package: oniis-cli
+Architecture: all
+Version: 1.0
+Maintainer: Oniisama
+Depends: bash, curl, fzf
+Filename: ./oniis-cli.deb
+Size: 10272
+MD5sum: 96ce93db13ffcec91075f84e1b5ae22b
+SHA1: dd099db013bbda78be1b0d93f7d3df6cd6cc3b32
+SHA256: bec88ae5459db71d47bfe3561834471435bce06c1f9551cb868fd261e93a3b24
+SHA512: 1bce77052ea68b11b3c72a4bb47cc6109ce189db13b4a027bcaccf4f34e60fe7078d7ecfe7ca5fb160abdb21d8e6ebc8e5028250e0a53007bfad03923d7efa26
+Description: Oniis CLI - Anime Download link for Termux
+ A Termux CLI tool to fetch anime episodes and generate text link lists.
+ Includes:
+  • oniis         (main)
+  • bulk-link     (bulk episode grabber)
+  • oniis-install (setup script | requirements)
+
